@@ -12,4 +12,4 @@
     - doppler run -- terraform import 'module.repository["fem-eci-terraform-tfe"].github_repository.self' 'fem-eci-terraform-tfe'
 
   ## Set up Sync
-    - 
+    - Load Github environment variables into Terraform VCS with GITHUB_TOKEN and GITHUB_OWNER
